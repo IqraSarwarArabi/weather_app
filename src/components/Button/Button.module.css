@@ -1,0 +1,33 @@
+button {
+  color: white;
+  background-color: blue;
+  font-size: 16px;
+  padding: 16px 20px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  margin-block: 18px;
+  min-width: 180px;
+}
+
+.btn :hover {
+  color: blue;
+  background-color: white;
+  border: 1px solid blue;
+}
+
+.centeredContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+button:disabled {
+  background-color: rgb(232, 168, 232);
+}

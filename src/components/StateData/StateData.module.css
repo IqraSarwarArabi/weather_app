@@ -1,0 +1,30 @@
+.location {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+  min-width: 200px;
+}
+
+.location .name {
+  color: blue;
+  font-size: 3rem;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.location div {
+  font-style: oblique;
+}
+
+.sunTime {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px;
+}

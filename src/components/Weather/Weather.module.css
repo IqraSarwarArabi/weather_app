@@ -1,0 +1,24 @@
+.charts {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 30%;
+}
+
+.chartsContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin: 50px 200px;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.stateData {
+  width: 30vw;
+}

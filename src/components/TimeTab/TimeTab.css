@@ -1,0 +1,9 @@
+.react-tabs__tab-list {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid blue !important;
+}
+
+.react-tabs__tab--selected {
+  border: 1px solid blue !important;
+}

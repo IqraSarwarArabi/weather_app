@@ -1,0 +1,12 @@
+.select {
+  display: flex;
+  align-items: center;
+  padding: 35px 200px;
+}
+
+.custom {
+  color: blue;
+  font-size: 16px;
+  font-weight: 500;
+  width: 300px;
+}
